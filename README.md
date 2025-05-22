@@ -4,6 +4,9 @@ Creates a Promise with an explicit `resolve` and `reject` function
 
 ## Example
 
-```
-// TODO
+```ts
+const lock = resolvable<void>();
+for(const process of list)
+ lock.then(process);
+lock.resolve();
 ```
