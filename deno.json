@@ -1,10 +1,7 @@
 {
   "name": "@md/resolvable",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "ISC",
   "exports": "./mod.ts",
-  "exclude": [
-    ".github/",
-    ".gitignore"
-  ]
+  "exclude": [".github/", ".gitignore"]
 }
